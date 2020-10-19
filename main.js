@@ -3,6 +3,7 @@
 
 const data = require('./data');
 
-const chars = data.characters.filter(race => race)
+const chars = data.characters.filter(item => item.race.indexOf("S"))
 
+console.log(data)
 console.log(chars)
